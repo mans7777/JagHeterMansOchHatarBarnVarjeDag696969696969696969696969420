@@ -1,0 +1,194 @@
+/*variables*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", Arial, sans-serif;
+  }
+  
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.0549019608);
+  }
+  .navbar div ul {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    list-style: none;
+  }
+  .navbar div ul div {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .navbar div ul div li a {
+    color: #4a4a4a;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .navbar div ul div li a:hover {
+    color: rgb(44, 149, 188);
+  }
+  .navbar .register {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff !important;
+    border-radius: 6px;
+  }
+  .navbar button {
+    width: inherit;
+    height: inherit;
+    background-color: rgb(44, 149, 188);
+    border-radius: inherit;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .navbar button:hover {
+    background-color: rgb(28, 117, 149);
+  }
+  .navbar h2 {
+    font-size: 23px;
+    font-weight: 800;
+    color: rgb(44, 149, 188);
+    cursor: pointer;
+  }
+  
+  .hero-middle {
+    width: 100%;
+    height: 86.5vh;
+    display: flex;
+    padding-top: -200px;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+  }
+  .hero-middle div h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #3a3a3a;
+  }
+  .hero-middle .searchbar-div {
+    width: 600px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+  }
+  .hero-middle .searchbar-div input {
+    width: 90%;
+    height: inherit;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    outline: none;
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .hero-middle .searchbar-div button {
+    width: 10%;
+    height: inherit;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: #d76f49;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-middle .searchbar-div button:hover {
+    background-color: #be5b37;
+  }
+  .hero-middle .text p {
+    font-size: 16px;
+    text-align: center;
+    color: #525151;
+    font-weight: 500;
+  }
+  
+  .button-section {
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .button-section .main-btn {
+    background-color: #d76f49;
+    width: 140px;
+    margin-right: 5px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .button-section .main-btn:hover {
+    background-color: #be5b37;
+  }
+  .button-section .secondary-btn {
+    background-color: rgb(44, 149, 188);
+    color: #fff;
+    width: 140px;
+    margin-right: 20px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .button-section .secondary-btn:hover {
+    background-color: rgb(28, 117, 149);
+  }
+  
+  .arrow-down {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .arrow-down button {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+  }
+  
+  .arrow-down button:hover {
+    margin-top: 5px;
+  }/*# sourceMappingURL=style.css.map */
